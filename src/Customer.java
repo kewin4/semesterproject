@@ -4,12 +4,31 @@
  */
 public class Customer {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+private String name;
+private String phone;
+
+public customer(String name, String phone)
+{
+	this.name = name;
+	this.phone = phone;
 
 	}
+/**
+ * Return the name of a costumer
+ */
+public String getName()
+{
+	return name;
+	
+}
+
+/**
+ * Return the phone number of a costumer
+ */
+public String getPhone()
+{
+	return phone;
+	
+}
 
 }
